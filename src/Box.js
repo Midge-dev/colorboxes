@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Box.css';
 
 class Box extends Component {
     constructor(props){
@@ -15,7 +16,7 @@ class Box extends Component {
         return (
         <div className="Box" style={{backgroundColor: this.state.color}} onClick={this.handleClick}>
 
-        </div>;
+        </div>
         )
     }
 }
